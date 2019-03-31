@@ -1,0 +1,52 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	background-color: #333333;
+}
+
+#menu {
+	//background-color: yellow;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+#menuList {
+	list-style: none;
+	text-align: right;
+}
+
+.menuItem {
+	//background-color: green;
+	display: inline-block;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.menuItem a{
+	color: white;
+	text-decoration: none;
+}
+
+.menuItem a:hover{
+	color: #AAAAAA;
+}
+
+#main {
+	padding-top: 12%;
+	text-align: center;
+}
+
+#nazwaStrony {
+	color: white;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+
+
+
+

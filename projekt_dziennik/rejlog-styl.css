@@ -1,0 +1,68 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	background-color: #333333;
+	text-align: center;
+}
+
+#formularz
+{
+	margin-top: 5%;
+	font-size: 40px;
+	color: silver;
+	display: inline-block;
+	text-align: initial;
+}
+
+
+#tytul{
+	font-size: 40px;
+	font-weight: bold;
+	padding: 15px;
+}
+
+td {
+	padding: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]
+{
+	border-color: silver;
+	background-color: #333333;
+	color: silver;
+	font-size: 40px;
+	padding: 3px;
+}
+
+#przyciski {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 40px;
+}
+
+input[type="button"], input[type="submit"]
+{
+	font-size: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 2px 10px 2px 10px;
+	display: inline-block;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	box-shadow: 3px white;
+	color: #444488;
+}
+
+.error {
+	color: red;
+}
+
+.do_wypelnienia {
+	border-color: red;
+}
